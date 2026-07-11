@@ -1,0 +1,124 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ==========================
+# Jupyter Notebook
+# ==========================
+.ipynb_checkpoints/
+
+# ==========================
+# Data Files
+# (Uncomment if you don't want to track datasets)
+# ==========================
+data/
+datasets/
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.h5
+*.db
+*.sqlite
+
+# Keep directory structure
+!data/.gitkeep
+
+# ==========================
+# Model Files
+# ==========================
+models/
+*.pkl
+*.joblib
+*.h5
+*.onnx
+*.pt
+*.pth
+
+# ==========================
+# Outputs
+# ==========================
+outputs/
+results/
+reports/
+figures/
+plots/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.html
+
+# ==========================
+# Logs
+# ==========================
+logs/
+*.log
+
+# ==========================
+# Cache
+# ==========================
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+coverage/
+htmlcov/
+.pyre/
+
+# ==========================
+# Environment Variables
+# ==========================
+.env
+.env.*
+!.env.example
+
+# ==========================
+# IDEs
+# ==========================
+.vscode/
+.idea/
+*.iml
+
+# ==========================
+# OS Files
+# ==========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================
+# Temporary Files
+# ==========================
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# ==========================
+# Misc
+# ==========================
+*.bak
+*.origconsumer_complaints.csv
+consumer_complaints.csv
